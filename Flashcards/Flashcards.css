@@ -1,7 +1,5 @@
 html {
-    background: #348F50; /* old browser fallback */
-    background: -webkit-linear-gradient(to bottom, #56B4D3, #348F50);
-    background: linear-gradient(to bottom, #56B4D3, #348F50);
+    background: #56B4D3;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: #333;
