@@ -1,0 +1,80 @@
+html {
+    background: #348F50; /* old browser fallback */
+    background: -webkit-linear-gradient(to bottom, #56B4D3, #348F50);
+    background: linear-gradient(to bottom, #56B4D3, #348F50);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #333;
+    font-weight: 400;
+    max-width: 100%;
+}
+
+#controls {
+    position: relative;
+}
+
+#new {
+    color: #fff;
+    background-color: #2d9;
+    font-weight: 500;
+    font-size: 4vh;
+    margin: 1vh auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    transition: all 250ms linear;
+    letter-spacing: 1.5px;
+}
+
+#controls > input, #controls > input:focus {
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #bbb;
+    margin: 1vh auto;
+    width: 100%;
+    font-size: 5vh;
+}
+
+.close {
+    font-size: 5vh;
+    color: #d55;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    transition: all 250ms linear;
+}
+
+.card, .box {
+    display: inline-block;
+    position: relative;
+    margin: 4vh auto 0 auto;
+    border: 0;
+    padding: 1vh 5vw;
+    width: 80vw;
+    min-height: 7vh;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #689;
+}
+
+.answer {
+    width: 100%;
+    background-color: #333;
+    transition: all 250ms linear;
+}
+
+.answer:hover {
+    background-color: #fff;
+}
+
+h1 {
+    overflow: scroll;
+    font-size: 6vh;
+}
+
+p {
+    text-align: left;
+    font-size: 4vh;
+}
+
+hr {
+    border: 1px solid #2d9;    
+}
